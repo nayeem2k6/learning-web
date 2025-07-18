@@ -127,6 +127,14 @@ max-width: 530px;
   .section-9{
     margin-left: 130px;
   }
+  .sponser-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+  }
+  .our-sponsors{
+    margin-left: 130px;
+  }
 
 /* responsive media query */
 @media screen and (max-width: 776px) {
@@ -145,8 +153,12 @@ max-width: 530px;
   grid-template-columns: repeat(1,1fr);
 }
 .facts-contenir{
-  justify-content: center;
+  justify-items: center;
   gap: 20px;
+}
+.sponser-img{
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
 }
   
 }
