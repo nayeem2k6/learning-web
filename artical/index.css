@@ -96,8 +96,16 @@ max-width: 530px;
 }
 /* responsive media query */
 @media screen and (max-width: 776px) {
-  .navbar{
+  .navbar, .trems{
     flex-direction: column;
-  } 
+
+  }
+.term-img{
+  grid-template-columns: repeat(1,1fr);
+}
+.trem-feature{
+  margin-left: 50px;
+
+}
   
 }
